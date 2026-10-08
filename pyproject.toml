@@ -1,0 +1,23 @@
+[project]
+name = "proj2"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "dotenv>=0.9.9",
+    "jsonpointer>=3.1.1",
+    "langchain>=1.4.3",
+    "langchain-groq>=1.1.3",
+    "langgraph>=1.2.14",
+    "langgraph-checkpoint-redis>=0.5.2",
+    "python-dotenv>=1.2.4",
+    "redis>=8.1.0",
+]
+
+[project.scripts]
+proj2 = "proj2:main"
+
+[build-system]
+requires = ["uv_build>=0.12.20,<0.13.0"]
+build-backend = "uv_build"

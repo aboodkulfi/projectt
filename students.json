@@ -1,0 +1,12 @@
+{
+    "101": {
+        "name": "Arun",
+        "department": "CSE",
+        "attendance": 82
+    },
+    "102": {
+        "name": "Priya",
+        "department": "AI",
+        "attendance": 91
+    }
+}
